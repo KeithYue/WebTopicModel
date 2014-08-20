@@ -8,6 +8,11 @@
 * 对包含某关键字的文档进行话题提取。
 * 支持动态本地字典构造
 
+### 环境要求
+* 最好使用现成的Anaconda3 的python3环境，该环境是针对python3的科学计算环境。(注意anaconda3环境能与anaconda环境共存，用来切换python2与python3)
+* gensim
+* pymongo
+
 ### 使用方式
 主要通过运行`topic.py`脚本来进行特征提取。
 
